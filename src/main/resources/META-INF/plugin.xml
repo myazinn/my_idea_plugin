@@ -1,0 +1,15 @@
+<idea-plugin>
+    <id>zzzcom.home.my-idea-plugin</id>
+
+    <idea-version since-build="251.25410" until-build="251.*"/>
+
+    <depends>org.intellij.scala</depends>
+    <depends>com.intellij.modules.java</depends>
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <testFramework implementation="com.home.TestFramework" />
+    </extensions>
+
+</idea-plugin>
